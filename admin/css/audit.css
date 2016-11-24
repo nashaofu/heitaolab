@@ -1,0 +1,341 @@
+@charset "utf-8";
+.audit {
+    min-height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 20px #ccc;
+    text-align: center;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+}
+
+.article {
+    padding: 10px;
+}
+
+.table {
+    border: 1px solid #bbb;
+}
+
+.article-header {
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    display: block;
+    color: #000;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f3f3f3;
+    cursor: default;
+}
+
+.article .item {
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    display: block;
+    color: #333;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #777;
+    background-color: #fff;
+    cursor: default;
+}
+
+.article .item:hover {
+    color: #03f;
+}
+
+.article-header div {
+    height: 36px !important;
+    line-height: 36px !important;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    border-left: 1px solid #999;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.item div {
+    height: 30px !important;
+    line-height: 30px !important;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    border-left: 1px solid #999;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.article .article-id, .article-header .table-id {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+}
+
+.article .article-id div, .article-header .table-id div {
+    width: 60px;
+    padding: 0 7px;
+    border: none;
+    text-align: center;
+}
+
+.article .article-title, .article-header .table-name {
+    width: auto;
+    margin-left: 74px;
+    margin-right: 290px;
+    padding: 0 7px;
+    text-align: left;
+}
+
+.article .article-time, .article-header .table-time {
+    width: 120px;
+    margin-right: 155px;
+    padding: 0 7px;
+    float: right;
+    text-align: center;
+}
+
+.article .article-audit, .article-header .table-audit {
+    width: 140px;
+    padding: 0 7px;
+    float: right;
+    text-align: center;
+}
+
+.article-header .table-name, .article-header .table-status, .article-header .table-time, .article-header .table-audit {
+    margin-top: -36px;
+}
+
+.article .article-title, .article .article-status, .article .article-time, .article .article-audit {
+    margin-top: -30px;
+}
+
+.article-audit a {
+    width: 30px;
+    height: 20px;
+    margin: 0 5px;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.article-audit a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 767px) {
+    .article .article-title, .article-header .table-name {
+        margin-right: 155px;
+    }
+    .article .article-time, .article-header .table-time {
+        display: none;
+    }
+}
+
+.set-bar {
+    padding: 0 10px;
+    text-align: left;
+}
+
+.set-bar span {
+    margin-right: 7px;
+}
+
+.set-bar a {
+    padding: 0 4px;
+    color: #00f;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.set-bar a:hover {
+    text-decoration: underline;
+}
+
+.pagination-btns {
+    padding: 30px 0;
+}
+
+.article-search {
+    padding: 10px;
+}
+
+.search-table {
+    border: 1px solid #bbb;
+}
+
+.search-header {
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    display: block;
+    color: #000;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f3f3f3;
+    cursor: default;
+}
+
+.article-search .item {
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    display: block;
+    color: #333;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #777;
+    background-color: #fff;
+    cursor: default;
+}
+
+.search-header div {
+    height: 36px !important;
+    line-height: 36px !important;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    border-left: 1px solid #999;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.item div {
+    height: 30px !important;
+    line-height: 30px !important;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    border-left: 1px solid #999;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.search-id {
+    width: 100%;
+    border: none !important;
+    text-align: center;
+}
+
+.search-id div {
+    width: 140px;
+    border: none;
+    text-align: center;
+}
+
+.search-title {
+    width: auto;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
+}
+
+.search-status {
+    width: 140px;
+    float: right;
+    text-align: center;
+}
+
+.search-header .search-title, .search-header .search-status {
+    margin-top: -36px;
+    text-align: center;
+}
+
+.item .search-title, .item .search-status {
+    margin-top: -30px;
+    text-align: left;
+}
+
+.search-id input, .search-title input {
+    width: 100%;
+    height: 30px;
+    padding: 0 3px;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.search-status select {
+    width: 100%;
+    height: 30px;
+    padding: 0 3px;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.search-tag {
+    position: relative;
+}
+
+.column {
+    width: 50%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+}
+
+.column:first-child {
+    border: none;
+}
+
+.input {
+    left: 0;
+}
+
+.output {
+    right: 0;
+}
+
+.column .item-name {
+    width: 140px;
+    border-left: none;
+    border-right: 1px solid #999;
+    text-align: center;
+}
+
+.column .item-html {
+    margin-top: -30px;
+    margin-left: 140px;
+}
+
+.item-html select {
+    width: 100%;
+    height: 30px;
+    padding: 0 3px;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    text-align: right;
+}
+
+.btn input {
+    padding: 3px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.article-set a {
+    margin: 0 5px 0 0 !important;
+}

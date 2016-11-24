@@ -1,0 +1,1097 @@
+@charset "utf-8";
+.header {
+    width: 100%;
+    min-height: 70px;
+    margin: 0;
+    padding: 0;
+    background: #272822 !important;
+    border-bottom: 3px solid red;
+}
+
+.header a {
+    color: #eee;
+    text-align: center;
+    text-decoration: none !important;
+    outline: none;
+}
+
+.header a:hover, .footer a:hover {
+    color: #fff;
+    text-shadow: 0 0 1px #fff;
+}
+
+.logo {
+    width: 140px !important;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    float: left;
+}
+
+.logo>img {
+    width: 120px !important;
+    height: 40px !important;
+    margin: 15px 10px;
+    border: none !important;
+}
+
+.navbar-toggle {
+    width: 30px;
+    height: 30px;
+    margin: 10px !important;
+    padding: 10px !important;
+    display: none;
+    float: right;
+    background: #000;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.navbar-toggle:hover {
+    box-shadow: 0 0 3px #fff;
+    background: #4f4f4f;
+}
+
+.navbar-toggle .icon-bar {
+    width: 30px;
+    height: 4px;
+    padding: 0 !important;
+    margin: 4px auto !important;
+    display: block;
+    border-radius: 1px;
+    background: #fff;
+    text-align: center;
+}
+
+.navbar-toggle .icon-bar:first-child {
+    margin-top: 5px !important;
+}
+
+.navbar-toggle .icon-bar:last-child {
+    margin-bottom: 4px !important;
+}
+
+.menu {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    text-align: left;
+    list-style: none;
+}
+
+.menu-item {
+    display: inline;
+}
+
+.menu-item>a {
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.account {
+    max-width: 140px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px auto;
+    display: block;
+    float: right;
+    text-align: left;
+}
+
+.account>a {
+    line-height: 30px;
+    margin-top: -10px;
+    padding: 10px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.user {
+    width: 120px;
+}
+
+.account>a>img {
+    width: 30px !important;
+    height: 30px !important;
+    display: block;
+    float: left;
+}
+
+.account>a>span {
+    height: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+    padding: 0 7px 0 7px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.account-menu {
+    width: 150px;
+    background: #272822 !important;
+    margin: 0 -5px;
+    display: none;
+    position: relative;
+    color: #eee;
+    font-size: 15px;
+    list-style: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 10px #272822;
+    text-align: left;
+    z-index: 999;
+}
+
+.account-menu>li {
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+    padding: 1px;
+    display: block;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.account-menu>li:last-child, .account-menu>li:nth-last-child(2) {
+    border-top: 1px solid #3f3f3f;
+}
+
+.account-menu>li>a {
+    padding-left: 42px;
+    display: block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.account-menu>li>a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.account:hover .account-menu {
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #272822 !important;
+    text-align: center;
+}
+
+.footer a {
+    color: #eee;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+}
+
+.footer>div {
+    border-top: 1px solid #fff;
+    text-align: center;
+}
+
+.footer>div:nth-last-child(1), .footer>div:nth-last-child(2) {
+    margin: 0 auto;
+    padding: 7px;
+    display: inline;
+    border: none;
+}
+
+.footer>div:nth-last-child(1)>a, .footer>div:nth-last-child(2)>a {
+    margin: 0 2%;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footer>div:nth-last-child(2)>a:first-child {
+    margin-left: 0;
+}
+
+.footer>div:nth-last-child(1)>a:last-child {
+    margin-right: 0;
+}
+
+.footer>div>div {
+    width: 24%;
+    padding-top: 14px;
+    padding-bottom: 0 !important;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.footer-ul {
+    list-style: none;
+    word-wrap: break-word !important;
+    word-spacing: inherit !important;
+    word-break: break-all !important;
+}
+
+.drop-button {
+    display: block;
+    font-size: 22px;
+    text-align: left !important;
+}
+
+.drop-button:after {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    content: "+";
+    float: right;
+    display: none;
+}
+
+.footer-ul>li>a {
+    margin: 20px 0;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    outline: none;
+}
+
+@media (max-width: 319px) {
+    .navbar-toggle {
+        display: block;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 70px;
+        display: none;
+        text-align: left;
+    }
+    .menu-item, .account {
+        width: auto;
+        margin: 0;
+        padding: 7px 20px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .menu-item:first-child {
+        border-top: 2px solid red;
+    }
+    .account {
+        max-width: 100%;
+        float: none;
+        clear: both;
+        border-bottom: 1px solid red;
+    }
+    .menu-item>a, .account>a {
+        width: auto !important;
+        line-height: 30px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+    }
+    .account>a>span:after {
+        float: right;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        content: "+";
+    }
+    .account:hover>a>span:after {
+        content: "-";
+    }
+    .account-menu {
+        width: 100%;
+        margin-left: -20px;
+        padding: 7px 20px 0 20px;
+    }
+    .account-menu>li {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:nth-last-child(2) {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:last-child {
+        border-top: 1px solid #fff;
+        border-bottom: 3px solid red;
+    }
+    .account-menu>li>a {
+        padding-left: 37px;
+    }
+    .footer>div {
+        margin: 0 10px;
+    }
+    .footer>div>div {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .drop-button {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .drop-button:after {
+        display: block;
+    }
+    .footer-ul {
+        display: none;
+        border-bottom: 1px solid #fff;
+    }
+    .footer>div:nth-last-child(1), .footer>div:nth-last-child(2) {
+        display: block;
+    }
+    .footer>div:nth-last-child(1)>a {
+        margin: 0;
+    }
+    .footer>div:nth-last-child(2)>a {
+        margin: 0 1.8%;
+    }
+    .footer>div:nth-last-child(1)>a:first-child {
+        margin-left: 0;
+    }
+    .footer>div:nth-last-child(2)>a:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+    .navbar-toggle {
+        display: block;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 70px;
+        display: none;
+        text-align: left;
+    }
+    .menu-item, .account {
+        width: auto;
+        margin: 0;
+        padding: 7px 20px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .menu-item:first-child {
+        border-top: 2px solid red;
+    }
+    .account {
+        max-width: 100%;
+        float: none;
+        clear: both;
+        border-bottom: 1px solid red;
+    }
+    .menu-item>a, .account>a {
+        width: auto !important;
+        line-height: 30px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+    }
+    .account>a>span:after {
+        float: right;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        content: "+";
+    }
+    .account:hover>a>span:after {
+        content: "-";
+    }
+    .account-menu {
+        width: 100%;
+        margin-left: -20px;
+        padding: 7px 20px 0 20px;
+    }
+    .account-menu>li {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:nth-last-child(2) {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:last-child {
+        border-top: 1px solid #fff;
+        border-bottom: 3px solid red;
+    }
+    .account-menu>li>a {
+        padding-left: 37px;
+    }
+    .footer>div {
+        margin: 0 10px;
+    }
+    .footer>div>div {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .drop-button {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .drop-button:after {
+        display: block;
+    }
+    .footer-ul {
+        display: none;
+        border-bottom: 1px solid #fff;
+    }
+    .footer>div:nth-last-child(1), .footer>div:nth-last-child(2) {
+        display: block;
+    }
+    .footer>div:nth-last-child(1)>a {
+        margin: 0 2%;
+    }
+    .footer>div:nth-last-child(2)>a {
+        margin: 0 2.6%;
+    }
+    .footer>div:nth-last-child(1)>a:first-child {
+        margin-left: 0;
+    }
+    .footer>div:nth-last-child(2)>a:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 399px) {
+    .navbar-toggle {
+        display: block;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 70px;
+        display: none;
+        text-align: left;
+    }
+    .menu-item, .account {
+        width: auto;
+        margin: 0;
+        padding: 7px 20px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .menu-item:first-child {
+        border-top: 2px solid red;
+    }
+    .account {
+        max-width: 100%;
+        float: none;
+        clear: both;
+        border-bottom: 1px solid red;
+    }
+    .menu-item>a, .account>a {
+        width: auto !important;
+        line-height: 30px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+    }
+    .account>a>span:after {
+        float: right;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        content: "+";
+    }
+    .account:hover>a>span:after {
+        content: "-";
+    }
+    .account-menu {
+        width: 100%;
+        margin-left: -20px;
+        padding: 7px 20px 0 20px;
+    }
+    .account-menu>li {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:nth-last-child(2) {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:last-child {
+        border-top: 1px solid #fff;
+        border-bottom: 3px solid red;
+    }
+    .account-menu>li>a {
+        padding-left: 37px;
+    }
+    .footer>div {
+        margin: 0 10px;
+    }
+    .footer>div>div {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .drop-button {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .drop-button:after {
+        display: block;
+    }
+    .footer-ul {
+        display: none;
+        border-bottom: 1px solid #fff;
+    }
+    .footer>div:nth-last-child(1), .footer>div:nth-last-child(2) {
+        display: block;
+    }
+    .footer>div:nth-last-child(1)>a, .footer>div:nth-last-child(2)>a {
+        margin: 0 4%;
+    }
+    .footer>div:nth-last-child(1)>a:first-child {
+        margin-left: 0;
+    }
+    .footer>div:nth-last-child(2)>a:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 479px) {
+    .navbar-toggle {
+        display: block;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 70px;
+        display: none;
+        text-align: left;
+    }
+    .menu-item, .account {
+        width: auto;
+        margin: 0;
+        padding: 7px 20px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .menu-item:first-child {
+        border-top: 2px solid red;
+    }
+    .account {
+        max-width: 100%;
+        float: none;
+        clear: both;
+        border-bottom: 1px solid red;
+    }
+    .menu-item>a, .account>a {
+        width: auto !important;
+        line-height: 30px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+    }
+    .account>a>span:after {
+        float: right;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        content: "+";
+    }
+    .account:hover>a>span:after {
+        content: "-";
+    }
+    .account-menu {
+        width: 100%;
+        margin-left: -20px;
+        padding: 7px 20px 0 20px;
+    }
+    .account-menu>li {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:nth-last-child(2) {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:last-child {
+        border-top: 1px solid #fff;
+        border-bottom: 3px solid red;
+    }
+    .account-menu>li>a {
+        padding-left: 37px;
+    }
+    .footer>div {
+        margin: 0 10px;
+    }
+    .footer>div>div {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .drop-button {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .drop-button:after {
+        display: block;
+    }
+    .footer-ul {
+        display: none;
+        border-bottom: 1px solid #fff;
+    }
+    .footer>div:nth-last-child(1), .footer>div:nth-last-child(2) {
+        display: block;
+    }
+    .footer>div:nth-last-child(1)>a, .footer>div:nth-last-child(2)>a {
+        margin: 0 5%;
+    }
+    .footer>div:nth-last-child(1)>a:first-child {
+        margin-left: 0;
+    }
+    .footer>div:nth-last-child(2)>a:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 569px) {
+    .navbar-toggle {
+        display: block;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 70px;
+        display: none;
+        text-align: left;
+    }
+    .menu-item, .account {
+        width: auto;
+        margin: 0;
+        padding: 7px 20px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .menu-item:first-child {
+        border-top: 2px solid red;
+    }
+    .account {
+        max-width: 100%;
+        float: none;
+        clear: both;
+        border-bottom: 1px solid red;
+    }
+    .menu-item>a, .account>a {
+        width: auto !important;
+        line-height: 30px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+    }
+    .account>a>span:after {
+        float: right;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        content: "+";
+    }
+    .account:hover>a>span:after {
+        content: "-";
+    }
+    .account-menu {
+        width: 100%;
+        margin-left: -20px;
+        padding: 7px 20px 0 20px;
+    }
+    .account-menu>li {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:nth-last-child(2) {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:last-child {
+        border-top: 1px solid #fff;
+        border-bottom: 3px solid red;
+    }
+    .account-menu>li>a {
+        padding-left: 37px;
+    }
+    .footer>div {
+        margin: 0 10px;
+    }
+    .footer>div>div {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .drop-button {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .drop-button:after {
+        display: block;
+    }
+    .footer-ul {
+        display: none;
+        border-bottom: 1px solid #fff;
+    }
+    .footer>div:nth-last-child(1), .footer>div:nth-last-child(2) {
+        display: block;
+    }
+    .footer>div:nth-last-child(1)>a, .footer>div:nth-last-child(2)>a {
+        margin: 0 7%;
+    }
+    .footer>div:nth-last-child(1)>a:first-child {
+        margin-left: 0;
+    }
+    .footer>div:nth-last-child(2)>a:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 570px) and (max-width: 659px) {
+    .navbar-toggle {
+        display: block;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 70px;
+        display: none;
+        text-align: left;
+    }
+    .menu-item, .account {
+        width: auto;
+        margin: 0;
+        padding: 7px 20px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .menu-item:first-child {
+        border-top: 2px solid red;
+    }
+    .account {
+        max-width: 100%;
+        float: none;
+        clear: both;
+        border-bottom: 1px solid red;
+    }
+    .menu-item>a, .account>a {
+        width: auto !important;
+        line-height: 30px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+    }
+    .account>a>span:after {
+        float: right;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        content: "+";
+    }
+    .account:hover>a>span:after {
+        content: "-";
+    }
+    .account-menu {
+        width: 100%;
+        margin-left: -20px;
+        padding: 7px 20px 0 20px;
+    }
+    .account-menu>li {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:nth-last-child(2) {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:last-child {
+        border-top: 1px solid #fff;
+        border-bottom: 3px solid red;
+    }
+    .account-menu>li>a {
+        padding-left: 37px;
+    }
+    .footer>div {
+        margin: 0 10px;
+    }
+    .footer>div>div {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .drop-button {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .drop-button:after {
+        display: block;
+    }
+    .footer-ul {
+        display: none;
+        border-bottom: 1px solid #fff;
+    }
+    .footer>div:nth-last-child(1)>a, .footer>div:nth-last-child(2)>a {
+        margin: 0;
+    }
+    .footer>div:nth-last-child(1)>a:first-child {
+        margin-left: 0;
+    }
+    .footer>div:nth-last-child(2)>a:last-child {
+        margin-right: 0;
+    }
+}
+
+@media(min-width: 660px) and (max-width: 767px) {
+    .navbar-toggle {
+        display: block;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .menu {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 70px;
+        display: none;
+        text-align: left;
+    }
+    .menu-item, .account {
+        width: auto;
+        margin: 0;
+        padding: 7px 20px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .menu-item:first-child {
+        border-top: 2px solid red;
+    }
+    .account {
+        max-width: 100%;
+        float: none;
+        clear: both;
+        border-bottom: 1px solid red;
+    }
+    .menu-item>a, .account>a {
+        width: auto !important;
+        line-height: 30px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: left;
+    }
+    .account>a>span:after {
+        float: right;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        content: "+";
+    }
+    .account:hover>a>span:after {
+        content: "-";
+    }
+    .account-menu {
+        width: 100%;
+        margin-left: -20px;
+        padding: 7px 20px 0 20px;
+    }
+    .account-menu>li {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:nth-last-child(2) {
+        border-top: 1px solid #fff;
+    }
+    .account-menu>li:last-child {
+        border-top: 1px solid #fff;
+        border-bottom: 3px solid red;
+    }
+    .account-menu>li>a {
+        padding-left: 37px;
+    }
+    .footer>div {
+        margin: 0 10px;
+    }
+    .footer>div>div {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .drop-button {
+        height: 40px;
+        line-height: 40px;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+    .drop-button:after {
+        display: block;
+    }
+    .footer-ul {
+        display: none;
+        border-bottom: 1px solid #fff;
+    }
+    .footer>div:nth-last-child(1)>a, .footer>div:nth-last-child(2)>a {
+        margin: 0 1.7%;
+    }
+    .footer>div:nth-last-child(1)>a:first-child {
+        margin-left: 0;
+    }
+    .footer>div:nth-last-child(2)>a:last-child {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 867px) {
+    .logo {
+        margin-left: 2%;
+    }
+    .menu-item {
+        margin: 0 2.3%;
+    }
+    .account {
+        margin-right: 2%;
+    }
+    .footer>div {
+        margin: 0 3%;
+    }
+}
+
+@media (min-width: 868px) and (max-width: 967px) {
+    .logo {
+        margin-left: 8%;
+    }
+    .menu-item {
+        margin: 0 1.8%;
+    }
+    .account {
+        margin-right: 8%;
+    }
+    .footer>div {
+        margin: 0 8%;
+    }
+}
+
+@media (min-width: 968px) and (max-width: 1067px) {
+    .logo {
+        margin-left: 12%;
+    }
+    .menu-item {
+        margin: 0 2%;
+    }
+    .account {
+        margin-right: 12%;
+    }
+    .footer>div {
+        margin: 0 12%;
+    }
+}
+
+@media (min-width: 1068px) and (max-width: 1167px) {
+    .logo {
+        margin-left: 12%;
+    }
+    .menu-item {
+        margin: 0 3%;
+    }
+    .account {
+        margin-right: 12%;
+    }
+    .footer>div {
+        margin: 0 12%;
+    }
+}
+
+@media (min-width: 1168px) and (max-width: 1267px) {
+    .logo {
+        margin-left: 12%;
+    }
+    .menu-item {
+        margin: 0 3.5%;
+    }
+    .account {
+        margin-right: 12%;
+    }
+    .footer>div {
+        margin: 0 12%;
+    }
+}
+
+@media (min-width: 1268px) and (max-width: 1367px) {
+    .logo {
+        margin-left: 12%;
+    }
+    .menu-item {
+        margin: 0 4%;
+    }
+    .account {
+        margin-right: 12%;
+    }
+    .footer>div {
+        margin: 0 12%;
+    }
+}
+
+@media (min-width: 1368px) {
+    .logo {
+        margin-left: 12%;
+    }
+    .menu-item {
+        margin: 0 4%;
+    }
+    .account {
+        margin-right: 12%;
+    }
+    .footer>div {
+        margin: 0 12%;
+    }
+}

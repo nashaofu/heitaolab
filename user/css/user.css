@@ -1,0 +1,1312 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.NotFound {
+    padding: 80px 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.NotFound h1 {
+    padding: 10px;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.NotFound .emoji {
+    padding: 0 10px;
+    margin: 0 20px;
+    font-size: 90px;
+}
+
+.login, .register {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.log-reg-header {
+    margin: 0 3%;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.log-reg-footer div {
+    width: 322px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 15px;
+}
+
+.log-reg-header a, .log-reg-footer a {
+    color: #02f;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.log-reg-header a:hover, .log-reg-footer a:hover {
+    color: #00f;
+    text-decoration: underline;
+}
+
+.log-reg-title {
+    margin: 0 auto;
+    padding: 18px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #333;
+}
+
+.log-reg-form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.log-reg-form>div {
+    width: 322px;
+    min-height: 42px;
+    margin: 17px auto;
+    text-align: left;
+}
+
+.warn {
+    padding: 0 6px;
+    display: none;
+    text-align: left;
+    color: red;
+}
+
+.username-textbox, .password-textbox {
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border: 1px solid #08f;
+    color: #888;
+    font-size: 16px;
+}
+
+.code-box, .captchas-box {
+    width: 322px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.code-box input, .captchas-box input {
+    width: 166px;
+    height: 40px;
+    padding: 0 10px;
+    display: block;
+    border: 1px solid #08f;
+    color: #888;
+    font-size: 16px;
+}
+
+.code-box a, .captchas-box a {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: #08f;
+    margin-top: -42px;
+    display: block;
+    float: right;
+    border: 1px solid #08f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    box-shadow: 0px 0px 20px #0bf inset;
+    color: #fff;
+    text-decoration: none;
+}
+
+.code-box a img, .captchas-box a img {
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.resetpwd, .checkbox {
+    height: 18px !important;
+    line-height: 18px;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.resetpwd {
+    margin-top: -5px !important;
+    margin-bottom: -5px !important;
+}
+
+.resetpwd a, .checkbox a {
+    color: #06f;
+    text-decoration: none;
+}
+
+.resetpwd a {
+    float: right;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    display: block;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: #08f;
+    border-radius: 1px;
+    border: none;
+    box-shadow: 0px 0px 20px #0bf inset;
+    cursor: pointer;
+    color: #fff;
+}
+
+.resetpwd a:hover, .checkbox a:hover {
+    text-decoration: underline;
+}
+
+.log-reg-form .button:first-child {
+    float: left;
+}
+
+.log-reg-form .button:last-child {
+    float: right;
+}
+
+.home, .manage, .safe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.home-avatar {
+    width: 270px;
+    height: 270px;
+    float: left;
+}
+
+.home-avatar>img {
+    width: 256px;
+    height: 256px;
+    padding: 7px;
+    background: #fff;
+    box-shadow: 0 0 7px #ccc;
+}
+
+.home-resume {
+    height: 250px;
+    margin-left: 300px !important;
+    padding: 10px;
+    display: block;
+}
+
+.home-resume>div {
+    text-align: left;
+}
+
+.name-bar {
+    height: 40px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.name-bar>.Name {
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.name-bar>.LV {
+    height: 16px;
+    line-height: 16px;
+    margin-left: 12px;
+    margin-top: 7px;
+    padding: 0 7px;
+    float: left;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    border: 1px solid red;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.name-bar>.LV:before {
+    content: "Lv.";
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    color: red;
+}
+
+.data-bar {
+    height: 50px;
+    margin: 10px auto;
+    margin-bottom: 25px;
+}
+
+.data-bar>a {
+    max-width: 80px;
+    height: 50px;
+    padding: 0 40px 0 20px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    border-left: 1px solid #ccc;
+}
+
+.data-bar>a:first-child {
+    padding-left: 0;
+    border: none;
+}
+
+.data-bar>a>div {
+    margin: 0;
+    padding: 0;
+}
+
+.data-bar>a>div:first-child {
+    height: 32px;
+    line-height: 32px;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    overflow: hidden;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.data-bar>a>div:last-child {
+    height: 18px;
+    line-height: 18px;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.introduction-bar, .address-bar, .gender-bar, .birthday-bar {
+    margin: 10px 0;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.home-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    clear: both;
+}
+
+.home-container>h2 {
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+    text-align: left;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    border-bottom: 3px solid red;
+}
+
+.home-LV>h3 {
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #333;
+    text-align: left;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.home-LV>h3:first-child>span {
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.home-LV>h3:first-child>span:before {
+    content: "Lv.";
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.home-LV>h3:nth-child(2)>em {
+    padding: 0 7px;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.home-LV>ul {
+    margin-left: 30px;
+    padding: 10px 20px;
+    color: #555;
+    text-align: left;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.home-LV>ul>li {
+    margin: 7px auto;
+}
+
+.article {
+    padding: 10px 20px;
+}
+
+.table {
+    border: 1px solid #bbb;
+}
+
+.article-header {
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    display: block;
+    color: #000;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f3f3f3;
+    cursor: default;
+}
+
+.article .item {
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    display: block;
+    color: #333;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #777;
+    background-color: #fff;
+    cursor: default;
+}
+
+.article .item:hover {
+    color: #03f;
+}
+
+.article-header div {
+    height: 36px !important;
+    line-height: 36px !important;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    border-left: 1px solid #999;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.item div {
+    height: 30px !important;
+    line-height: 30px !important;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    border-left: 1px solid #999;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
+
+.article .article-id, .article-header .table-id {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+}
+
+.article .article-id div, .article-header .table-id div {
+    width: 60px;
+    padding: 0 7px;
+    border: none;
+    text-align: center;
+}
+
+.article .article-title, .article-header .table-name {
+    width: auto;
+    margin-left: 74px;
+    margin-right: 255px;
+    padding: 0 7px;
+    text-align: left;
+}
+
+.article .article-status, .article-header .table-status {
+    width: 60px;
+    margin-right: 180px;
+    padding: 0 7px;
+    float: right;
+    text-align: center;
+}
+
+.article .article-time, .article-header .table-time {
+    width: 100px;
+    margin-right: 65px;
+    padding: 0 7px;
+    float: right;
+    text-align: center;
+}
+
+.article-header .table-edit, .article .article-edit {
+    width: 50px;
+    padding: 0 7px;
+    float: right;
+    text-align: center;
+}
+
+.article-header .table-name, .article-header .table-status, .article-header .table-time, .article-header .table-edit {
+    margin-top: -36px;
+}
+
+.article .article-title, .article .article-status, .article .article-time, .article .article-edit {
+    margin-top: -30px;
+}
+
+.article .article-title a, .article .article-edit a {
+    color: #333;
+    text-decoration: none;
+}
+
+.article .article-title a:hover, .article .article-edit a:hover {
+    color: #03f;
+    text-decoration: underline;
+}
+
+.article .item:hover a {
+    color: #03f;
+}
+
+@media(max-width: 767px) {
+    .article .article-title, .article-header .table-name {
+        margin-right: 140px;
+    }
+    .article .article-status, .article-header .table-status {
+        margin-right: 65px;
+    }
+    .article .article-time, .article-header .table-time {
+        display: none;
+    }
+}
+
+@media(max-width: 420px) {
+    .article .article-id, .article-header .table-id {
+        visibility: hidden;
+    }
+    .article .article-title, .article-header .table-name {
+        margin-left: 0;
+        border: none;
+    }
+}
+
+.manage-title, .safe-title {
+    margin: 10px;
+    padding: 7px 0;
+    color: #333;
+    text-align: left;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.manage-bar, .safe-bar {
+    height: 40px;
+    background: rgb(240, 240, 240);
+    margin: 10px;
+    color: #333;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-top: 2px solid #ccc;
+    border-bottom: 1px solid #cff;
+    box-shadow: 0 0 600px rgb(248, 248, 248) inset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.manage-bar>a, .safe-bar>a {
+    width: 20%;
+    max-width: 170px;
+    height: 41px;
+    line-height: 41px;
+    display: block;
+    float: left;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+.manage-bar>a:first-child, .safe-bar>a:first-child {
+    border-left: none;
+}
+
+.manage-bar>.on, .safe-bar>.on {
+    background: rgb(255, 255, 210);
+    margin-top: -2px;
+    border-top: 2px solid red;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.manage-bar>a:hover, .safe-bar>a:hover {
+    margin-top: -2px;
+    border-top: 2px solid red;
+}
+
+.manage-container {
+    margin: 30px 10px;
+    text-align: center;
+}
+
+.manage-info, .manage-avatar, .manage-binding, .manage-privacy {
+    display: none;
+}
+
+.manage-info>form, .safe-security>form {
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.manage-info-item {
+    width: 400px;
+    margin: 20px auto;
+    padding: 0;
+    position: relative;
+    text-align: left;
+}
+
+.manage-info-item>label {
+    width: 38px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    color: #333;
+}
+
+.manage-info-item>input, .manage-info-item>textarea {
+    width: 320px;
+    height: 16px;
+    margin-left: 38px;
+    padding: 6px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: 1px solid #bbb;
+}
+
+.manage-info-item>textarea {
+    height: 80px;
+    resize: none;
+    word-break: break-all;
+}
+
+.manage-info-item>div {
+    width: 320px;
+    height: 32px;
+    line-height: 38px;
+    margin: 0;
+    margin-left: 38px;
+    padding: 0 6px;
+}
+
+.manage-info-birthday div, .manage-info-area div {
+    width: 332px;
+    padding: 0;
+}
+
+.manage-info-birthday select {
+    width: 25%;
+    height: 32px;
+    float: left;
+    padding: 6px;
+}
+
+.manage-info-birthday span {
+    width: auto;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 3px;
+    float: left;
+    padding: 0;
+}
+
+.manage-info-area select {
+    width: 30%;
+    height: 32px;
+    float: left;
+    padding: 6px;
+}
+
+.manage-info-area select:last-child {
+    margin-left: 12px;
+}
+
+.manage-info-item>div>label {
+    height: 32px;
+    line-height: 36px;
+    margin-right: 20px;
+    padding-left: 7px;
+    padding-right: 16px;
+    display: block;
+    float: left;
+}
+
+.manage-info-item:last-child {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.manage-info-item:last-child>div {
+    height: auto;
+    line-height: normal;
+    padding: 0;
+    padding-right: 12px;
+    text-align: left;
+}
+
+.manage-info-item>div>.button {
+    width: 140px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    border-radius: 3px;
+    border: 1px solid #0af;
+}
+
+.manage-avatar {
+    margin: 15px;
+}
+
+.avatar-box {
+    margin-top: 10px;
+    margin-right: 7px;
+    float: right;
+    padding: 20px 0;
+}
+
+.avatar-box h2 {
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+
+.avatar-box img {
+    background: #fff;
+    padding: 5px;
+    box-shadow: 0 0 10px #cde;
+}
+
+.manage-avatar label {
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    margin: 7px;
+    padding: 0;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(255, 255, 200);
+    border-radius: 5px;
+    border: 1px solid rgb(200, 200, 255);
+    box-shadow: 0 0 24px rgb(255, 255, 100) inset;
+    cursor: pointer;
+    color: #333;
+}
+
+.image-notice {
+    width: auto;
+    min-height: 40px;
+    line-height: 30px;
+    margin-left: 7px;
+    padding: 0;
+    display: block;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #555;
+    text-align: left;
+    box-shadow: none;
+}
+
+.manage-avatar form {
+    margin: 20px 7px;
+}
+
+.manage-avatar>div .file-avatar-input {
+    display: none;
+}
+
+.manage-avatar .button {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.manage-avatar .button:last-child {
+    margin-top: -30px;
+    float: right;
+}
+
+.safe-container {
+    margin: 20px 10px;
+    font-size: 14px;
+}
+
+.safe-resetpwd, .safe-modifypwd, .safe-security {
+    display: block;
+}
+
+.safe-container-title {
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #333;
+}
+
+.safe-resetpwd {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.safe-resetpwd-box>form>div {
+    width: 320px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.safe-resetpwd-box>form>div>label {
+    height: 27px;
+    line-height: 27px;
+    display: block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.safe-resetpwd-box>form>div .warn {
+    padding: 6px;
+}
+
+.safe-resetpwd-box>form>div>input {
+    width: 300px;
+    height: 25px;
+    padding: 6px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid #bbb;
+}
+
+.safe-resetpwd-codebox {
+    width: 314px;
+    padding: 0;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.safe-resetpwd-codebox>input {
+    width: 170px;
+    height: 25px;
+    padding: 6px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border: 1px solid #bbb;
+}
+
+.safe-resetpwd-codebox>a {
+    width: 118px;
+    height: 37px;
+    line-height: 39px;
+    margin-top: -39px;
+    display: block;
+    float: right;
+    background: #08f;
+    border: 1px solid #08f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    box-shadow: 0px 0px 20px #0bf inset;
+    color: #fff;
+    text-decoration: none;
+}
+
+.safe-resetpwd-codebox>a>img {
+    width: 118px;
+    height: 37px;
+    cursor: pointer;
+}
+
+.safe-resetpwd-box>form .button {
+    width: 184px;
+    height: 40px;
+    margin: 0;
+}
+
+.safe-resetpwd-type-btnbox, .safe-resetpwd-success {
+    margin-top: 40px;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+}
+
+.safe-resetpwd-type-btnbox>div {
+    width: 320px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.safe-resetpwd-type-btnbox>div>div {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.safe-resetpwd-type-btnbox>div>div>a {
+    line-height: 40px;
+    margin: 0 10px;
+    padding: 6px 30px;
+    background: #08f;
+    border: 1px solid #08f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    box-shadow: 0px 0px 20px #0bf inset;
+    color: #fff;
+    text-decoration: none;
+}
+
+.safe-resetpwd-type {
+    display: none;
+}
+
+.return-type {
+    width: 320px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.return-type>a {
+    padding: 0 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.safe-resetpwd-success>h1 {
+    color: #08f;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.safe-resetpwd-success>div {
+    margin: 15px auto;
+    color: #333;
+    font-size: 14px;
+}
+
+.safe-modifypwd>form>div, .safe-security>form>div {
+    width: 320px;
+    min-height: 66px;
+    margin: 10px auto;
+}
+
+.safe-modifypwd form .warn {
+    padding: 6px;
+}
+
+.safe-security form .warn {
+    margin: 0 auto;
+    padding: 6px;
+    display: none;
+}
+
+.safe-modifypwd>form>div>label, .safe-security>form>div>label {
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+    display: block;
+    font-size: 14px;
+    text-align: left;
+}
+
+.safe-modifypwd>form>div>input, .safe-security>form>div>input {
+    width: 300px;
+    height: 23px;
+    padding: 6px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border: 1px solid #bbb;
+}
+
+.safe-security-codebox {
+    width: 312px;
+    min-height: 40px;
+    margin: 0 !important;
+    text-align: left;
+}
+
+.safe-security-codebox>input {
+    width: 170px;
+    height: 23px;
+    padding: 6px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border: 1px solid #bbb;
+}
+
+.safe-security-codebox>a {
+    width: 120px;
+    height: 37px;
+    line-height: 37px;
+    margin-top: -37px;
+    display: block;
+    float: right;
+    background: #08f;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    box-shadow: 0px 0px 20px #0bf inset;
+    color: #fff;
+    text-decoration: none;
+}
+
+.safe-security-box {
+    width: 314px;
+    height: 37px;
+    padding: 6px 2px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border: 1px solid #bbb;
+}
+
+.safe-security>form>div>div {
+    margin: 40px auto;
+    display: block;
+    text-align: left;
+}
+
+.safe-modifypwd form .button, .safe-security form .button {
+    width: 140px;
+    height: 34px;
+    line-height: 34px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.safe-modifypwd form .button:last-child, .safe-security form .button:last-child {
+    float: right;
+    margin-top: -34px;
+    margin-right: 6px;
+}
+
+@media (max-width: 359px) {
+    .login, .register {
+        margin: 15px auto;
+        padding-bottom: 20px;
+    }
+    .log-reg-form>div {
+        width: 278px;
+    }
+    .username-textbox, .password-textbox {
+        width: 256px;
+        margin: 0 auto;
+    }
+    .code-box, .captchas-box {
+        width: 278px;
+    }
+    .code-box input, .captchas-box input {
+        width: 128px;
+    }
+    .resetpwd, .checkbox {
+        margin-bottom: -20px !important;
+    }
+    .checkbox span {
+        display: none;
+    }
+    .button {
+        width: 128px;
+        height: 36px;
+    }
+    .log-reg-footer div {
+        width: 278px;
+    }
+    .home, .manage, .safe {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .home {
+        padding: 3px 0 30px 0;
+    }
+    .home-container {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+    }
+    .home-avatar {
+        width: auto;
+        height: auto;
+        float: none;
+        text-align: center;
+    }
+    .home-avatar-img {
+        width: 30% !important;
+        max-width: 200px;
+        min-width: 120px;
+        height: auto !important;
+        max-height: 200px;
+        min-height: 120px;
+        display: block;
+        margin: 0 auto;
+    }
+    .name-bar>.LV {
+        display: none;
+    }
+    .home-resume {
+        margin: 0 10px !important;
+        padding: 0;
+        padding-top: 10px;
+        display: block;
+        clear: both;
+    }
+    .data-bar>a {
+        max-width: 66px;
+        padding: 0 15px 0 10px;
+    }
+    .manage-bar>a {
+        width: 24%;
+    }
+    .manage-avatar {
+        width: auto;
+        margin: 10px;
+    }
+    .manage-avatar>div {
+        margin: 0 auto;
+    }
+    .avatar-box {
+        clear: both;
+        float: none;
+        display: block;
+    }
+    .avatar-box h2 {
+        width: 90px;
+        height: 30px;
+        line-height: 30px;
+        float: left;
+    }
+    .avatar-box img {
+        width: 160px;
+        height: 160px;
+        margin: 3px;
+    }
+    .manage-avatar>div, .manage-avatar form {
+        width: 276px;
+        margin: 0 auto;
+    }
+    .manage-avatar form {
+        margin-top: 20px;
+    }
+    .safe-bar>a {
+        width: 32%;
+    }
+    .manage-info-item {
+        width: 80%;
+        max-width: 400px;
+        min-width: 280px;
+    }
+    .manage-info-item>input, .manage-info-item>textarea, .manage-info-item>div {
+        width: 80%;
+        max-width: 320px;
+        min-width: 220px;
+    }
+    .manage-info-birthday div, .manage-info-area div {
+        width: 83%;
+        max-width: 332px;
+        min-width: 232px;
+    }
+    .safe-resetpwd-type-btnbox>div, .safe-resetpwd-box>form>div, .return-type, .safe-modifypwd>form>div, .safe-security>form>div {
+        width: 280px;
+    }
+    .safe-resetpwd-box>form>div>input, .safe-modifypwd>form>div>input, .safe-security>form>div>input {
+        width: 260px;
+    }
+    .safe-resetpwd-codebox, .safe-security-codebox {
+        width: 274px;
+    }
+    .safe-resetpwd-codebox>input, .safe-security-codebox>input {
+        width: 135px;
+    }
+    .safe-resetpwd-box>form .button {
+        width: 149px;
+    }
+    .safe-resetpwd-success>h1 {
+        font-size: 24px;
+    }
+    .safe-resetpwd-success>div {
+        font-size: 12px;
+    }
+    .safe-security-box {
+        width: 274px;
+    }
+    .safe-modifypwd form .button, .safe-security form .button {
+        width: 130px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 867px) {
+    .name-bar>.Name {
+        max-width: 240px;
+    }
+    .data-bar>a {
+        max-width: 70px;
+        padding: 0 20px 0 12px;
+    }
+    .manage-avatar {
+        width: 620px;
+    }
+    .avatar-box img {
+        width: 200px;
+        height: 200px;
+    }
+    .manage-avatar form {
+        width: 322px;
+    }
+    .cropper-container {
+        max-width: 302px;
+    }
+}
+
+@media (min-width: 868px) and (max-width: 1024px) {
+    .name-bar>.Name {
+        max-width: 260px;
+    }
+    .data-bar>a {
+        max-width: 70px;
+        padding: 0 20px 0 15px;
+    }
+    .manage-avatar {
+        width: 620px;
+    }
+    .avatar-box img {
+        width: 200px;
+        height: 200px;
+    }
+    .manage-avatar form {
+        width: 322px;
+    }
+    .cropper-container {
+        max-width: 302px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1367px) {
+    .data-bar>a {
+        max-width: 80px;
+        padding: 0 25px 0 15px;
+    }
+    .manage-avatar {
+        width: 680px;
+    }
+    .avatar-box img {
+        width: 256px;
+        height: 256px;
+    }
+    .manage-avatar form {
+        width: 362px;
+    }
+    .cropper-container {
+        max-width: 342px;
+    }
+}
+
+@media (min-width: 1368px) {
+    .data-bar>a {
+        max-width: 80px;
+        padding: 0 25px 0 15px;
+    }
+    .manage-avatar {
+        width: 900px;
+    }
+    .avatar-box img {
+        width: 300px;
+        height: 300px;
+    }
+    .manage-avatar form {
+        width: 422px;
+    }
+    .cropper-container {
+        max-width: 402px;
+    }
+}

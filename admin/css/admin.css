@@ -1,0 +1,115 @@
+@charset "utf-8";
+.admin-bar {
+    height: 40px;
+    background: rgb(240, 240, 240);
+    margin: 10px 10px 50px 10px;
+    color: #333;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-top: 2px solid #ccc;
+    border-bottom: 1px solid #cff;
+    box-shadow: 0 0 600px rgb(248, 248, 248) inset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.admin-bar>a {
+    width: 20%;
+    max-width: 170px;
+    height: 41px;
+    line-height: 41px;
+    display: block;
+    float: left;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.admin-bar>a:first-child {
+    border-left: none;
+}
+
+.admin-bar>.on {
+    background: rgb(255, 255, 210);
+    margin-top: -2px;
+    border-top: 2px solid red;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.admin-bar>a:hover {
+    margin-top: -2px;
+    border-top: 2px solid red;
+    background-color: #fcfcfc;
+    color: #08f;
+}
+
+.admin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.box {
+    border: 5px dashed #f8f8f8;
+}
+
+.admin-box {
+    width: 140px;
+    min-height: 500px;
+    background: rgb(240, 240, 240);
+    color: #333;
+    text-align: left;
+    border: 1px solid #999;
+    box-shadow: 0 0 600px rgb(248, 248, 248) inset;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    z-index: 10;
+}
+
+.admin-box a {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #f00;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.admin-box a:hover {
+    background: rgb(255, 255, 210);
+}
+
+.html-box {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -500px;
+    display: block;
+    float: left;
+    text-align: left;
+    z-index: 0;
+}
+
+.html-box div {
+    margin-top: 200px;
+    margin-left: 152px;
+    margin-right: 10px;
+}
+
+.html-box h1 {
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    cursor: default;
+}

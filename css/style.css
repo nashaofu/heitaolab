@@ -1,0 +1,64 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+img {
+    border: none;
+    border-width: 0;
+}
+
+.container {
+    padding: 0;
+    background: #fff;
+}
+
+@media (max-width: 319px) {
+    .container {
+        margin: 0 1%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+    .container {
+        margin: 0 2%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 399px) {
+    .container {
+        margin: 0 3%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+    .container {
+        margin: 0 4%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 867px) {
+    .container {
+        margin: 0 5%;
+    }
+}
+
+@media (min-width: 868px) and (max-width: 967px) {
+    .container {
+        margin: 0 10%;
+    }
+}
+
+@media (min-width: 968px) {
+    .container {
+        margin: 0 13%;
+    }
+}

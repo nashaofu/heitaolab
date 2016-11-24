@@ -1,0 +1,278 @@
+@charset "utf-8";
+.noresult {
+    height: 80px;
+    line-height: 80px;
+    padding: 10px;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.noresult .emoji {
+    padding: 0 10px;
+    margin: 0 20px;
+    font-size: 72px;
+}
+
+.manage {
+    min-height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 20px #ccc;
+    text-align: center;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+}
+
+.search-form tr {
+    color: #000 !important;
+    text-align: left;
+}
+
+.manage-table .item .item-tag {
+    min-width: 140px;
+    padding: 0;
+}
+
+.manage-table .item .item-tag select {
+    width: 100%;
+    height: 30px;
+    padding: 0 6px;
+    border: none;
+    outline: none;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.manage-table .item .item-visibility {
+    padding: 0;
+}
+
+.manage-table .item .item-visibility label {
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.manage-table .item .item-btn {
+    text-align: right;
+}
+
+.manage-table .item .item-btn input {
+    width: 60px;
+    height: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media(max-width: 500px) {
+    .manage-table .item .item-visibility label {
+        display: block;
+    }
+}
+
+.manage-bar {
+    margin: 0 10px;
+    padding: 10px 0;
+    border: 3px dashed #ccc;
+    text-align: left;
+}
+
+.manage-bar span {
+    margin-right: 10px;
+}
+
+.manage-bar span a {
+    padding: 0 3px;
+    font-size: 18px;
+    color: #06f;
+}
+
+.manage-set-bar {
+    margin: 0 10px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+.manage-set-bar>a {
+    padding: 5px 10px;
+    float: right;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #fafafa, #ededed);
+}
+
+.manage-table {
+    padding: 10px;
+}
+
+.manage table {
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.manage table th {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 7px;
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #f8f8f8;
+    border-left: 1px solid #999;
+}
+
+.manage table .item td {
+    height: 28px;
+    padding: 0 7px;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+}
+
+.manage table th:first-child, .manage table td:first-child {
+    border-left: none;
+}
+
+.manage table tr:hover, .manage table tr:hover a {
+    color: #08f;
+}
+
+.manage table td a {
+    color: #000;
+    text-decoration: none;
+}
+
+.manage table td a:hover {
+    text-decoration: underline;
+}
+
+.table-id {
+    width: 60px;
+}
+
+.table-title {
+    text-align: left;
+}
+
+.table-visibility {
+    width: 60px;
+}
+
+.table-tag {
+    width: 80px;
+}
+
+.table-time {
+    width: 120px;
+}
+
+.table-edit {
+    width: 60px;
+}
+
+.pagination-btns {
+    margin: 10px auto;
+}
+
+@media(max-width: 767px) {
+    .table-time {
+        display: none;
+    }
+}
+
+.title-bar {
+    margin: 0 10px;
+    padding: 0;
+    font-size: 30px;
+    color: #000;
+    text-align: left;
+    border-bottom: 3px solid #f00;
+}
+
+.surpport-publish {
+    padding: 10px;
+    text-align: left;
+    color: #000;
+}
+
+.warn {
+    display: none;
+    float: right;
+    color: #f00;
+}
+
+.manage-title, .manage-set, .manage-body {
+    width: auto;
+    margin: 10px auto;
+    display: block;
+    font-size: 18px;
+}
+
+.manage-title label, .manage-body label {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    overflow: hidden;
+}
+
+.manage-title input {
+    width: 100%;
+    height: 32px;
+    padding: 6px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.manage-visibility, .manage-tag {
+    margin: 7px 30px 7px 0;
+    float: left;
+}
+
+.manage-visibility>label, .manage-tag>label {
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.manage-tag select {
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+
+.manage-publish-button {
+    width: 70%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.manage-publish-button input {
+    width: 40%;
+    height: 40px;
+    display: block;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: #08f;
+    border-radius: 1px;
+    border: none;
+    box-shadow: 0px 0px 20px #0bf inset;
+    cursor: pointer;
+    color: #fff;
+}
+
+.manage-publish-button input:last-child {
+    margin-top: -40px;
+    float: right;
+}
