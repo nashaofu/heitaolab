@@ -20,13 +20,13 @@ define('DB_HOST', 'localhost');
 define('DB_TYPE', 'mysql');
 
 /** MySQL数据库用户名 */
-define('DB_USER', 'root');
+define('DB_USER', '数据库用户名');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'lock274394');
+define('DB_PASSWORD', '数据库密码');
 
 /** 网站数据库的名称 */
-define('DB_NAME', 'heitaolab');
+define('DB_NAME', '数据库名字');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
@@ -39,13 +39,13 @@ define('DB_ARTICLE_TABLE', 'article');
 define('DB_MANAGE_TABLE', 'manage');
 
 /** 邮箱主机 */
-define('MAIL_HOST', 'smtp.mxhichina.com');
+define('MAIL_HOST', '邮箱主机');
 /** 邮箱账号 */
-define('MAIL_USER', 'master@heitaolab.com');
+define('MAIL_USER', '邮箱账号');
 /** 邮箱密码 */
-define('MAIL_PASSWORD', 'Heitaolab123456');
+define('MAIL_PASSWORD', '邮箱密码');
 /** 邮箱名字 */
-define('MAIL_NAME', '黑桃Lab');
+define('MAIL_NAME', '邮箱显示名字');
 
 /**
  * 身份认证密钥与盐。
@@ -54,5 +54,5 @@ define('MAIL_NAME', '黑桃Lab');
  * @ MODE 加密模式
  */
 define('CIPHER', MCRYPT_RIJNDAEL_256);
-define('KEY', '5b218f4e180700e909225f5fb96953c3');
+define('KEY', '32位加密密钥');
 define('MODE', MCRYPT_MODE_CBC);
